@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx",
+    "path": "/tags/on-chain",
+    "result": {"data":{"allPost":{"nodes":[{"slug":"/what-happens-to-the-art-when-a-nft-is-minted","title":"What Happens to the Art When a NFT is Minted?","date":"24.09.2021","excerpt":"Without looking into it, I thought that entire files -anything from 4x4 pixel blocks, 16G videos, 9mb gifs- would be encrypted and stored in…","timeToRead":4,"description":null,"tags":[{"name":"NFTs","slug":"nf-ts"},{"name":"art","slug":"art"},{"name":"ethereum","slug":"ethereum"},{"name":"on-chain","slug":"on-chain"},{"name":"off-chain","slug":"off-chain"}]}]}},"pageContext":{"slug":"on-chain","name":"on-chain","formatString":"DD.MM.YYYY"}},
+    "staticQueryHashes": ["2744905544","3090400250","318001574"]}
