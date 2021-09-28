@@ -5,25 +5,25 @@
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
   Referrer-Policy: same-origin
-/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-homepage-query-tsx-9ff743c35915ea490932.js
+/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-homepage-query-tsx-9ba29a31f39fd98b3494.js
   Cache-Control: public, max-age=31536000, immutable
-/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-blog-query-tsx-0d4cd9b368a9917dca82.js
+/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-blog-query-tsx-50f85f64b2d52c9c4ccc.js
   Cache-Control: public, max-age=31536000, immutable
-/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tags-query-tsx-4f4bdcd4d8f8b7f5cc04.js
+/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tags-query-tsx-20737d87bff937cfa8ea.js
   Cache-Control: public, max-age=31536000, immutable
-/076b648d06f94fa0e68f4094bcf9c1a72c93f983-0e8a8694fb74f814c684.js
+/076b648d06f94fa0e68f4094bcf9c1a72c93f983-f98fb448647d885c355e.js
   Cache-Control: public, max-age=31536000, immutable
 /component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-post-query-tsx-f6377f0c131866e9f7f1.js
   Cache-Control: public, max-age=31536000, immutable
 /component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-page-query-tsx-683c657a3ad12a2ec126.js
   Cache-Control: public, max-age=31536000, immutable
-/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-f2172d79cb44a1ce6916.js
+/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-688790ed09dc9d579a40.js
   Cache-Control: public, max-age=31536000, immutable
 /component---cache-caches-gatsby-plugin-offline-app-shell-js-8082ead11468e855ad07.js
   Cache-Control: public, max-age=31536000, immutable
-/component---src-pages-404-jsx-dd0ca3c0d02ac172ad72.js
+/component---src-pages-404-jsx-36875d25899ade7a5f98.js
   Cache-Control: public, max-age=31536000, immutable
-/webpack-runtime-d3c8241cfef6594fc331.js
+/webpack-runtime-fcebda170868235e1a30.js
   Cache-Control: public, max-age=31536000, immutable
 /framework-786f98e384268f86ec54.js
   Cache-Control: public, max-age=31536000, immutable
@@ -34,155 +34,155 @@
 /sw.js
   Cache-Control: no-cache
 /understanding-nfts/
-  Link: </understanding-nfts/webpack-runtime-d3c8241cfef6594fc331.js>; rel=preload; as=script
+  Link: </understanding-nfts/webpack-runtime-fcebda170868235e1a30.js>; rel=preload; as=script
   Link: </understanding-nfts/framework-786f98e384268f86ec54.js>; rel=preload; as=script
   Link: </understanding-nfts/app-3a27c015982a3e383824.js>; rel=preload; as=script
-  Link: </understanding-nfts/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-homepage-query-tsx-9ff743c35915ea490932.js>; rel=preload; as=script
+  Link: </understanding-nfts/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-homepage-query-tsx-9ba29a31f39fd98b3494.js>; rel=preload; as=script
   Link: </understanding-nfts/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </understanding-nfts/page-data/index/page-data.json>; rel=preload; as=fetch; crossorigin
 /understanding-nfts/blog
-  Link: </understanding-nfts/webpack-runtime-d3c8241cfef6594fc331.js>; rel=preload; as=script
+  Link: </understanding-nfts/webpack-runtime-fcebda170868235e1a30.js>; rel=preload; as=script
   Link: </understanding-nfts/framework-786f98e384268f86ec54.js>; rel=preload; as=script
   Link: </understanding-nfts/app-3a27c015982a3e383824.js>; rel=preload; as=script
-  Link: </understanding-nfts/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-blog-query-tsx-0d4cd9b368a9917dca82.js>; rel=preload; as=script
+  Link: </understanding-nfts/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-blog-query-tsx-50f85f64b2d52c9c4ccc.js>; rel=preload; as=script
   Link: </understanding-nfts/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </understanding-nfts/page-data/blog/page-data.json>; rel=preload; as=fetch; crossorigin
 /understanding-nfts/tags
-  Link: </understanding-nfts/webpack-runtime-d3c8241cfef6594fc331.js>; rel=preload; as=script
+  Link: </understanding-nfts/webpack-runtime-fcebda170868235e1a30.js>; rel=preload; as=script
   Link: </understanding-nfts/framework-786f98e384268f86ec54.js>; rel=preload; as=script
   Link: </understanding-nfts/app-3a27c015982a3e383824.js>; rel=preload; as=script
-  Link: </understanding-nfts/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tags-query-tsx-4f4bdcd4d8f8b7f5cc04.js>; rel=preload; as=script
+  Link: </understanding-nfts/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tags-query-tsx-20737d87bff937cfa8ea.js>; rel=preload; as=script
   Link: </understanding-nfts/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </understanding-nfts/page-data/tags/page-data.json>; rel=preload; as=fetch; crossorigin
-/understanding-nfts/problems-with-nf-ts
-  Link: </understanding-nfts/webpack-runtime-d3c8241cfef6594fc331.js>; rel=preload; as=script
-  Link: </understanding-nfts/framework-786f98e384268f86ec54.js>; rel=preload; as=script
-  Link: </understanding-nfts/app-3a27c015982a3e383824.js>; rel=preload; as=script
-  Link: </understanding-nfts/076b648d06f94fa0e68f4094bcf9c1a72c93f983-0e8a8694fb74f814c684.js>; rel=preload; as=script
-  Link: </understanding-nfts/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-post-query-tsx-f6377f0c131866e9f7f1.js>; rel=preload; as=script
-  Link: </understanding-nfts/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </understanding-nfts/page-data/problems-with-nf-ts/page-data.json>; rel=preload; as=fetch; crossorigin
 /understanding-nfts/nf-ts-in-practice-legal-perspectives
-  Link: </understanding-nfts/webpack-runtime-d3c8241cfef6594fc331.js>; rel=preload; as=script
+  Link: </understanding-nfts/webpack-runtime-fcebda170868235e1a30.js>; rel=preload; as=script
   Link: </understanding-nfts/framework-786f98e384268f86ec54.js>; rel=preload; as=script
   Link: </understanding-nfts/app-3a27c015982a3e383824.js>; rel=preload; as=script
-  Link: </understanding-nfts/076b648d06f94fa0e68f4094bcf9c1a72c93f983-0e8a8694fb74f814c684.js>; rel=preload; as=script
+  Link: </understanding-nfts/076b648d06f94fa0e68f4094bcf9c1a72c93f983-f98fb448647d885c355e.js>; rel=preload; as=script
   Link: </understanding-nfts/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-post-query-tsx-f6377f0c131866e9f7f1.js>; rel=preload; as=script
   Link: </understanding-nfts/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </understanding-nfts/page-data/nf-ts-in-practice-legal-perspectives/page-data.json>; rel=preload; as=fetch; crossorigin
-/understanding-nfts/what-happens-to-the-art-when-a-nft-is-minted
-  Link: </understanding-nfts/webpack-runtime-d3c8241cfef6594fc331.js>; rel=preload; as=script
+/understanding-nfts/problems-with-nf-ts
+  Link: </understanding-nfts/webpack-runtime-fcebda170868235e1a30.js>; rel=preload; as=script
   Link: </understanding-nfts/framework-786f98e384268f86ec54.js>; rel=preload; as=script
   Link: </understanding-nfts/app-3a27c015982a3e383824.js>; rel=preload; as=script
-  Link: </understanding-nfts/076b648d06f94fa0e68f4094bcf9c1a72c93f983-0e8a8694fb74f814c684.js>; rel=preload; as=script
+  Link: </understanding-nfts/076b648d06f94fa0e68f4094bcf9c1a72c93f983-f98fb448647d885c355e.js>; rel=preload; as=script
+  Link: </understanding-nfts/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-post-query-tsx-f6377f0c131866e9f7f1.js>; rel=preload; as=script
+  Link: </understanding-nfts/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </understanding-nfts/page-data/problems-with-nf-ts/page-data.json>; rel=preload; as=fetch; crossorigin
+/understanding-nfts/what-happens-to-the-art-when-a-nft-is-minted
+  Link: </understanding-nfts/webpack-runtime-fcebda170868235e1a30.js>; rel=preload; as=script
+  Link: </understanding-nfts/framework-786f98e384268f86ec54.js>; rel=preload; as=script
+  Link: </understanding-nfts/app-3a27c015982a3e383824.js>; rel=preload; as=script
+  Link: </understanding-nfts/076b648d06f94fa0e68f4094bcf9c1a72c93f983-f98fb448647d885c355e.js>; rel=preload; as=script
   Link: </understanding-nfts/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-post-query-tsx-f6377f0c131866e9f7f1.js>; rel=preload; as=script
   Link: </understanding-nfts/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </understanding-nfts/page-data/what-happens-to-the-art-when-a-nft-is-minted/page-data.json>; rel=preload; as=fetch; crossorigin
 /understanding-nfts/problems-nf-ts-may-solve-for-digital-art
-  Link: </understanding-nfts/webpack-runtime-d3c8241cfef6594fc331.js>; rel=preload; as=script
+  Link: </understanding-nfts/webpack-runtime-fcebda170868235e1a30.js>; rel=preload; as=script
   Link: </understanding-nfts/framework-786f98e384268f86ec54.js>; rel=preload; as=script
   Link: </understanding-nfts/app-3a27c015982a3e383824.js>; rel=preload; as=script
-  Link: </understanding-nfts/076b648d06f94fa0e68f4094bcf9c1a72c93f983-0e8a8694fb74f814c684.js>; rel=preload; as=script
+  Link: </understanding-nfts/076b648d06f94fa0e68f4094bcf9c1a72c93f983-f98fb448647d885c355e.js>; rel=preload; as=script
   Link: </understanding-nfts/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-post-query-tsx-f6377f0c131866e9f7f1.js>; rel=preload; as=script
   Link: </understanding-nfts/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </understanding-nfts/page-data/problems-nf-ts-may-solve-for-digital-art/page-data.json>; rel=preload; as=fetch; crossorigin
 /understanding-nfts/just-what-makes-nf-ts-so-different-so-appealing
-  Link: </understanding-nfts/webpack-runtime-d3c8241cfef6594fc331.js>; rel=preload; as=script
+  Link: </understanding-nfts/webpack-runtime-fcebda170868235e1a30.js>; rel=preload; as=script
   Link: </understanding-nfts/framework-786f98e384268f86ec54.js>; rel=preload; as=script
   Link: </understanding-nfts/app-3a27c015982a3e383824.js>; rel=preload; as=script
-  Link: </understanding-nfts/076b648d06f94fa0e68f4094bcf9c1a72c93f983-0e8a8694fb74f814c684.js>; rel=preload; as=script
+  Link: </understanding-nfts/076b648d06f94fa0e68f4094bcf9c1a72c93f983-f98fb448647d885c355e.js>; rel=preload; as=script
   Link: </understanding-nfts/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-post-query-tsx-f6377f0c131866e9f7f1.js>; rel=preload; as=script
   Link: </understanding-nfts/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </understanding-nfts/page-data/just-what-makes-nf-ts-so-different-so-appealing/page-data.json>; rel=preload; as=fetch; crossorigin
 /understanding-nfts/about
-  Link: </understanding-nfts/webpack-runtime-d3c8241cfef6594fc331.js>; rel=preload; as=script
+  Link: </understanding-nfts/webpack-runtime-fcebda170868235e1a30.js>; rel=preload; as=script
   Link: </understanding-nfts/framework-786f98e384268f86ec54.js>; rel=preload; as=script
   Link: </understanding-nfts/app-3a27c015982a3e383824.js>; rel=preload; as=script
-  Link: </understanding-nfts/076b648d06f94fa0e68f4094bcf9c1a72c93f983-0e8a8694fb74f814c684.js>; rel=preload; as=script
+  Link: </understanding-nfts/076b648d06f94fa0e68f4094bcf9c1a72c93f983-f98fb448647d885c355e.js>; rel=preload; as=script
   Link: </understanding-nfts/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-page-query-tsx-683c657a3ad12a2ec126.js>; rel=preload; as=script
   Link: </understanding-nfts/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </understanding-nfts/page-data/about/page-data.json>; rel=preload; as=fetch; crossorigin
 /understanding-nfts/tags/nf-ts
-  Link: </understanding-nfts/webpack-runtime-d3c8241cfef6594fc331.js>; rel=preload; as=script
+  Link: </understanding-nfts/webpack-runtime-fcebda170868235e1a30.js>; rel=preload; as=script
   Link: </understanding-nfts/framework-786f98e384268f86ec54.js>; rel=preload; as=script
   Link: </understanding-nfts/app-3a27c015982a3e383824.js>; rel=preload; as=script
-  Link: </understanding-nfts/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-f2172d79cb44a1ce6916.js>; rel=preload; as=script
+  Link: </understanding-nfts/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-688790ed09dc9d579a40.js>; rel=preload; as=script
   Link: </understanding-nfts/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </understanding-nfts/page-data/tags/nf-ts/page-data.json>; rel=preload; as=fetch; crossorigin
 /understanding-nfts/tags/art
-  Link: </understanding-nfts/webpack-runtime-d3c8241cfef6594fc331.js>; rel=preload; as=script
+  Link: </understanding-nfts/webpack-runtime-fcebda170868235e1a30.js>; rel=preload; as=script
   Link: </understanding-nfts/framework-786f98e384268f86ec54.js>; rel=preload; as=script
   Link: </understanding-nfts/app-3a27c015982a3e383824.js>; rel=preload; as=script
-  Link: </understanding-nfts/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-f2172d79cb44a1ce6916.js>; rel=preload; as=script
+  Link: </understanding-nfts/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-688790ed09dc9d579a40.js>; rel=preload; as=script
   Link: </understanding-nfts/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </understanding-nfts/page-data/tags/art/page-data.json>; rel=preload; as=fetch; crossorigin
 /understanding-nfts/tags/bitcoin
-  Link: </understanding-nfts/webpack-runtime-d3c8241cfef6594fc331.js>; rel=preload; as=script
+  Link: </understanding-nfts/webpack-runtime-fcebda170868235e1a30.js>; rel=preload; as=script
   Link: </understanding-nfts/framework-786f98e384268f86ec54.js>; rel=preload; as=script
   Link: </understanding-nfts/app-3a27c015982a3e383824.js>; rel=preload; as=script
-  Link: </understanding-nfts/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-f2172d79cb44a1ce6916.js>; rel=preload; as=script
+  Link: </understanding-nfts/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-688790ed09dc9d579a40.js>; rel=preload; as=script
   Link: </understanding-nfts/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </understanding-nfts/page-data/tags/bitcoin/page-data.json>; rel=preload; as=fetch; crossorigin
 /understanding-nfts/tags/copyright
-  Link: </understanding-nfts/webpack-runtime-d3c8241cfef6594fc331.js>; rel=preload; as=script
+  Link: </understanding-nfts/webpack-runtime-fcebda170868235e1a30.js>; rel=preload; as=script
   Link: </understanding-nfts/framework-786f98e384268f86ec54.js>; rel=preload; as=script
   Link: </understanding-nfts/app-3a27c015982a3e383824.js>; rel=preload; as=script
-  Link: </understanding-nfts/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-f2172d79cb44a1ce6916.js>; rel=preload; as=script
+  Link: </understanding-nfts/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-688790ed09dc9d579a40.js>; rel=preload; as=script
   Link: </understanding-nfts/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </understanding-nfts/page-data/tags/copyright/page-data.json>; rel=preload; as=fetch; crossorigin
 /understanding-nfts/tags/ethereum
-  Link: </understanding-nfts/webpack-runtime-d3c8241cfef6594fc331.js>; rel=preload; as=script
+  Link: </understanding-nfts/webpack-runtime-fcebda170868235e1a30.js>; rel=preload; as=script
   Link: </understanding-nfts/framework-786f98e384268f86ec54.js>; rel=preload; as=script
   Link: </understanding-nfts/app-3a27c015982a3e383824.js>; rel=preload; as=script
-  Link: </understanding-nfts/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-f2172d79cb44a1ce6916.js>; rel=preload; as=script
+  Link: </understanding-nfts/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-688790ed09dc9d579a40.js>; rel=preload; as=script
   Link: </understanding-nfts/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </understanding-nfts/page-data/tags/ethereum/page-data.json>; rel=preload; as=fetch; crossorigin
 /understanding-nfts/tags/nfts
-  Link: </understanding-nfts/webpack-runtime-d3c8241cfef6594fc331.js>; rel=preload; as=script
+  Link: </understanding-nfts/webpack-runtime-fcebda170868235e1a30.js>; rel=preload; as=script
   Link: </understanding-nfts/framework-786f98e384268f86ec54.js>; rel=preload; as=script
   Link: </understanding-nfts/app-3a27c015982a3e383824.js>; rel=preload; as=script
-  Link: </understanding-nfts/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-f2172d79cb44a1ce6916.js>; rel=preload; as=script
+  Link: </understanding-nfts/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-688790ed09dc9d579a40.js>; rel=preload; as=script
   Link: </understanding-nfts/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </understanding-nfts/page-data/tags/nfts/page-data.json>; rel=preload; as=fetch; crossorigin
 /understanding-nfts/tags/off-chain
-  Link: </understanding-nfts/webpack-runtime-d3c8241cfef6594fc331.js>; rel=preload; as=script
+  Link: </understanding-nfts/webpack-runtime-fcebda170868235e1a30.js>; rel=preload; as=script
   Link: </understanding-nfts/framework-786f98e384268f86ec54.js>; rel=preload; as=script
   Link: </understanding-nfts/app-3a27c015982a3e383824.js>; rel=preload; as=script
-  Link: </understanding-nfts/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-f2172d79cb44a1ce6916.js>; rel=preload; as=script
+  Link: </understanding-nfts/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-688790ed09dc9d579a40.js>; rel=preload; as=script
   Link: </understanding-nfts/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </understanding-nfts/page-data/tags/off-chain/page-data.json>; rel=preload; as=fetch; crossorigin
 /understanding-nfts/tags/on-chain
-  Link: </understanding-nfts/webpack-runtime-d3c8241cfef6594fc331.js>; rel=preload; as=script
+  Link: </understanding-nfts/webpack-runtime-fcebda170868235e1a30.js>; rel=preload; as=script
   Link: </understanding-nfts/framework-786f98e384268f86ec54.js>; rel=preload; as=script
   Link: </understanding-nfts/app-3a27c015982a3e383824.js>; rel=preload; as=script
-  Link: </understanding-nfts/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-f2172d79cb44a1ce6916.js>; rel=preload; as=script
+  Link: </understanding-nfts/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-688790ed09dc9d579a40.js>; rel=preload; as=script
   Link: </understanding-nfts/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </understanding-nfts/page-data/tags/on-chain/page-data.json>; rel=preload; as=fetch; crossorigin
 /understanding-nfts/tags/taxes
-  Link: </understanding-nfts/webpack-runtime-d3c8241cfef6594fc331.js>; rel=preload; as=script
+  Link: </understanding-nfts/webpack-runtime-fcebda170868235e1a30.js>; rel=preload; as=script
   Link: </understanding-nfts/framework-786f98e384268f86ec54.js>; rel=preload; as=script
   Link: </understanding-nfts/app-3a27c015982a3e383824.js>; rel=preload; as=script
-  Link: </understanding-nfts/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-f2172d79cb44a1ce6916.js>; rel=preload; as=script
+  Link: </understanding-nfts/component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx-688790ed09dc9d579a40.js>; rel=preload; as=script
   Link: </understanding-nfts/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </understanding-nfts/page-data/tags/taxes/page-data.json>; rel=preload; as=fetch; crossorigin
 /understanding-nfts/offline-plugin-app-shell-fallback/
-  Link: </understanding-nfts/webpack-runtime-d3c8241cfef6594fc331.js>; rel=preload; as=script
+  Link: </understanding-nfts/webpack-runtime-fcebda170868235e1a30.js>; rel=preload; as=script
   Link: </understanding-nfts/framework-786f98e384268f86ec54.js>; rel=preload; as=script
   Link: </understanding-nfts/app-3a27c015982a3e383824.js>; rel=preload; as=script
   Link: </understanding-nfts/component---cache-caches-gatsby-plugin-offline-app-shell-js-8082ead11468e855ad07.js>; rel=preload; as=script
   Link: </understanding-nfts/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </understanding-nfts/page-data/offline-plugin-app-shell-fallback/page-data.json>; rel=preload; as=fetch; crossorigin
 /understanding-nfts/404/
-  Link: </understanding-nfts/webpack-runtime-d3c8241cfef6594fc331.js>; rel=preload; as=script
+  Link: </understanding-nfts/webpack-runtime-fcebda170868235e1a30.js>; rel=preload; as=script
   Link: </understanding-nfts/framework-786f98e384268f86ec54.js>; rel=preload; as=script
   Link: </understanding-nfts/app-3a27c015982a3e383824.js>; rel=preload; as=script
-  Link: </understanding-nfts/component---src-pages-404-jsx-dd0ca3c0d02ac172ad72.js>; rel=preload; as=script
+  Link: </understanding-nfts/component---src-pages-404-jsx-36875d25899ade7a5f98.js>; rel=preload; as=script
   Link: </understanding-nfts/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </understanding-nfts/page-data/404/page-data.json>; rel=preload; as=fetch; crossorigin
 /understanding-nfts/404.html
-  Link: </understanding-nfts/webpack-runtime-d3c8241cfef6594fc331.js>; rel=preload; as=script
+  Link: </understanding-nfts/webpack-runtime-fcebda170868235e1a30.js>; rel=preload; as=script
   Link: </understanding-nfts/framework-786f98e384268f86ec54.js>; rel=preload; as=script
   Link: </understanding-nfts/app-3a27c015982a3e383824.js>; rel=preload; as=script
-  Link: </understanding-nfts/component---src-pages-404-jsx-dd0ca3c0d02ac172ad72.js>; rel=preload; as=script
+  Link: </understanding-nfts/component---src-pages-404-jsx-36875d25899ade7a5f98.js>; rel=preload; as=script
   Link: </understanding-nfts/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </understanding-nfts/page-data/404.html/page-data.json>; rel=preload; as=fetch; crossorigin
