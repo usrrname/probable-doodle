@@ -1,0 +1,104 @@
+---
+title: Problems with NFTs
+date: 2021-09-26
+published: true
+tags:
+  - NFTs
+  - art
+  - ethereum
+---
+
+Here are some things I've heard people gripe about in regards to NFTs and Ethereum.
+
+## Paying to Play While Laughing All The Way To the Bank
+
+You have to buy ETH to mint or buy NFTs, or to bid on NFTs on decentralized apps. A mass of artists and daytime collectors jumping onto the NFT train will only serves to raise the value of ethereum and drive up gas prices (transaction fees for using the Ethereum network to mint NFTs, mine coin or transfer currency). This in turns requires artists or whoever is purchasing to pay more. It's human nature to want to pay as little as possible and still be able to benefit from a service. And of course, any service should have fees and charges tied to operations and overhead, just who ultimately gains from the entire system?
+
+## Misaligned Incentives
+
+> "...the first transaction in a block is a special transaction that starts a new coin owned
+> by the creator of the block. This adds an incentive for nodes to support the network, and provides
+> a way to initially distribute coins into circulation, since there is no central authority to issue them.
+> The steady addition of a constant of amount of new coins is analogous to gold miners expending
+> resources to add gold to circulation. In our case, it is CPU time and electricity that is expended."
+Satoshi Nakamoto, "Bitcoin: A Peer to Peer Cash System". 2008
+
+Mining involves multiple computers competing to solve puzzles at the same time. (Imagine systematically trying every combination you can think of to crack a friend's Facebook password.) However, only one computer will win and the rest just have to give up despite expending all the energy to come up with the correct answer. (That's where the waste of energy comes from). The one that solves the answer gets to produce the next block on the chain and is rewarded with eth for doing so. (Don't forget that every block on the chain needs to be updated after a block is added or a smart contract is run... thus requiring more energy and time.) 
+
+Bitcoin and Ethereum are systems designed to reward its maintainers: the miners... or more often the owners of mining pool companies.[^1] Miners can "pool" their computational energy together to increase the chances of finding a proof-of-work and adding a new block. In fact if the original purpose of bitcoin was to give every user a chance of using their own computers to "passively" generate income through mining (and eventually validating), the computational and energy needs are so immense that roughly 65-70% of the world's mining activity occurs in data centers in China.[^2] It's likely this industry will  relocate elsewhere since the crackdown on mining transactions by the Peoples Bank of China in advance of debuting its own central bank digital currency (CBDC).[^3]
+
+To go one level up, decentralized autonomous organizations (DAOs) claim to provide a democratic way for currency owners to participate in governance of Ethereum and the way rewards are spent. However, the accretion of membership within mining pools and DAOs can give these groups more political power to deterimine the course of ethereum than individual users, thus setting up differing classes of citizenship in the community.
+
+## Carbon Offsetting Is Flawed
+
+Given the state of the world in the past two decades, the more activistic of Gen-Z and millennial consumers are pressuring companies to take social responsibility into account, raising issues of environmental racism, human rights and in employment and manufacturing practices. And companies have in turn responded with promises to pay reasonable wages, provide work life balance, foozeball tables, etc.
+
+We want our art and passion work to be morally hygienic, the meat we eat to have happily died for us. The cognitive dissonance has never been stronger and carbon offsetting begs the question of whether the ends justifies the means. (Not to make light of our general gig-working artist who has 2 or 3 precarious jobs, most of which have been made redundant by Covid.)
+
+There's a ton already written out there on this subject so I won't belabor it.[^4]
+
+Kyle McDonald's project, ["ethereum-nft-activity"](https://github.com/kylemcdonald/ethereum-nft-activity) uses Python scripts to pull transaction data from popular NFT art platforms and makes estimations of daily carbon output according to Ethereum activity on popular NFT art platforms. A separate [repo](https://github.com/kylemcdonald/ethereum-energy) contains the scripts for using benchmarks of GPU power to find the per-day energy consumption of Ethereum. 
+
+McDonald admits there may be a high margin of error between the intensities of mining pool companies, but what I find most fascinating is the value gas fees over time. 
+
+Counterarguments to the ecological complaint include:
+- People are focusing and scapegoating NFT-minting for emissions because there's data around it, but there's a lack of data around the art world's comparative carbon emissions to make an accurate comparison.
+- NFTs only account for a small portion of Ethereum's activity
+- There's no direct correlation between increased transaction activity and carbon output
+
+
+## Many NFTs are "locked in" the platform they were created on
+
+The whole idea underpinning "only one" and "only one owner" has been a longstanding problem for ownership of digital art. NFTs are not interoperable even if some of them may be transferred between wallets. NFTs are not interoperable across all decentralized app marketplaces currently. If you minted one on Open Sea you can't transfer it to a different platform. This runs counter to the idea of NFTs as interchangeable tokens.
+
+## Burning physical artworks in attempt to increase the value of NFT art
+
+In March 2021, Injective Protocol (a Defi trading company) who bought a $95,000 Banksy recorded its burning as it was converted to a NFT, in great gesture to make the NFT the only thing representing the artwork in digital form.[^5]
+This isn't an inherent problem of the technology, this is moreso a problem of how humans are responding to new tech: destruction of culture for the sake of making headlines.
+
+## Burning NFTs to increase the value of the underlying coin
+
+In 2017, Mitchell Chan released "Digital Zones of Immaterial Pictorial Sensibility", a project that copies of works of fine art and would also allow the owner of the NFT to use a smart contract function he included to burn the NFT representing the artwork. Apparently the work is based on Yves Klein's work.
+(To his credit, the project was launched a couple months before CryptoKitties, which deserves some kind of applaud for "first dibs" on the idea.) [^6] 
+
+This happens on the market, and ironically, in art too.
+
+## Just because you mint, does not mean you will sell
+
+There is no magical connection between creating NFT and art sales. Not every gets to be Beeple. But you might stand a good chance if you have the influence and outreach and sponsorship of a community to match its value. [Haug and Partners](https://www.haugpartners.com/article/valuation-of-nfts-factors-to-consider-and-an-alternative-to-destroying-the-original-work/) describes the way an artists' pre-mainstream or A-List status is also tied up in the valuation of their artwork.[^7] In particular, Karen Darricades of Creative Commons Canada observes that artists with a higher social media follower count tend to succeed with NFT sales. [^8]
+
+As much as we hear of the successes of cartoon rocks and avatar costume parts being sold, similarly pages and pages of tokenized art sit unsold or sell for way lower than the existing art market would pay for it.[^8] At the end of the day, a sales marketplace makes sales less about art but the speculative value of an artist and how they've chosen to monetize their work. 
+
+## The existence of a NFT does not ensure authentic authorship by an artist
+
+Some tech firms have proposed NFTs unlock a use case for identity verification. On the other hand, platforms like OpenSea, Rarible and Marbl don't enforce identity verfication when an artwork is minted, other than through the use of social media handles. This leaves artists vulnerable to people minting their work and selling it for profit. [^9]
+
+#### Footnotes
+
+[^1] David Schwartz. "The Best Incentive is No Incentive" Stanford University https://www.youtube.com/watch?v=lP63dTY_7j0&t=0s The Stanford Blockchain Conference 2020. Arrillaga Alumni Center, Stanford University. Feb. 19-21, 2020
+
+[^2] "Comparison of mining pools" https://en.bitcoin.it/wiki/Comparison_of_mining_pools
+
+[^3] David Thomas. ["Huobi Exchange Stops Accepting Chinese Users After Crypto Crackdown"](https://beincrypto.com/huobi-exchange-stops-accepting-chinese-users-after-crypto-crackdown/), beincrypto, Sep 24. 2021
+
+Roger Huang. Forbes. ["The ‘Chinese Mining Centralization’ Of Bitcoin And Ethereum"](https://www.forbes.com/sites/rogerhuang/2021/12/29/the-chinese-mining-centralization-of-bitcoin-and-ethereum/?sh=64f88b4e2f66) Dec 29, 2020.
+
+CNBC. "China's Bitcoin Miner Exodus" Jun. 15, 2021 https://www.cnbc.com/2021/06/15/chinas-bitcoin-miner-exodus-.html
+
+[^4] Justine Calma. ["THE CLIMATE CONTROVERSY SWIRLING AROUND NFTS"](https://www.theverge.com/2021/3/15/22328203/nft-cryptoart-ethereum-blockchain-climate-change) The Verge. Mar. 15, 2021.
+
+"CryptoArt.wtf" http://cryptoart.wtf/, Mar. 12 2021
+
+Valentina Di Liscia. ["Does Carbon Offsetting Really Address the NFT Ecological Dilemma?"](https://hyperallergic.com/634236/does-carbon-offsetting-really-address-the-nft-ecological-dilemma/) Hyperallergic. Apr. 5, 2021
+
+[^5] Brian Boucher. ["A Group of Financial Traders Torched a $95,000 Banksy on Camera to Transform It Into a (Maybe) More Valuable NFT Artwork"](https://news.artnet.com/art-world/financial-traders-burned-banksy-nft-1948855), ArtNet. Mar. 4, 2021
+
+[^6] Pierre Paslier. ["My Dealbreakers for NFTs"](https://www.generativehut.com/post/__nft) Mar 8, 2021.
+
+[^7] Karen Darricades. ["Arts and Culture, Creative Commons and NFTs : why it’s going to take more than a unique token to solve the unique problems faced by arts and culture producers"](https://ca.creativecommons.net/2021/08/09/arts-and-culture-creative-commons-and-nfts-why-its-going-to-take-more-than-a-unique-token-to-solve-the-unique-problems-faced-by-arts-and-culture-producers/) Aug. 9, 2021.
+
+Haug and Partners. ["Valuation of NFTs: Factors to Consider and an Alternative to Destroying the Original Work"](https://www.haugpartners.com/article/valuation-of-nfts-factors-to-consider-and-an-alternative-to-destroying-the-original-work/) July 28, 2021.
+
+[^8] Abby Ohlheiserarchive. ["Some artists found a lifeline selling NFTs. Others worry it’s a trap."](https://www.technologyreview.com/2021/03/25/1021215/nft-artists-scams-profit-environment-blockchain/) MIT Technology Review. Mar 25, 2021
+
+[^9] Bijan Stephen. ["NFT MANIA IS HERE, AND SO ARE THE SCAMMERS"](https://www.theverge.com/2021/3/20/22334527/nft-scams-artists-opensea-rarible-marble-cards-fraud-art) Mar 20, 2021
