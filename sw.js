@@ -27,27 +27,43 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-d295b94bdb65b1e9d3fb.js"
+    "url": "webpack-runtime-d3c8241cfef6594fc331.js"
   },
   {
     "url": "framework-786f98e384268f86ec54.js"
   },
   {
-    "url": "app-a286cdb01b8fe19255e6.js"
+    "url": "app-3a27c015982a3e383824.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "369f20258f7d03595d4b2eca7ae6b712"
+    "revision": "ed31f313a07ca67b845cb1ba2ad1437f"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-8082ead11468e855ad07.js"
+  },
+  {
+    "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
+    "revision": "9b7bf67fcd2eea3982cd5dfe0419b376"
+  },
+  {
+    "url": "page-data/sq/d/2744905544.json",
+    "revision": "6fded333b4ed834f59ae5dc670f8d388"
+  },
+  {
+    "url": "page-data/sq/d/3090400250.json",
+    "revision": "aad85248ea4dc00f7efa19c2336d78cf"
+  },
+  {
+    "url": "page-data/app-data.json",
+    "revision": "32302e6950983d5f037b3174d613d090"
   },
   {
     "url": "polyfill-ae758ddee21648f84476.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "d7ab8abf4ca81e28485057d95c96fc9b"
+    "revision": "4e1d4bb3b3afc031b3697c2e5a249f92"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -134,12 +150,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^`), ``)
+  pathname = pathname.replace(new RegExp(`^/understanding-nfts`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-a286cdb01b8fe19255e6.js`))) {
+  if (!resources || !(await caches.match(`/understanding-nfts/app-3a27c015982a3e383824.js`))) {
     return await fetch(event.request)
   }
 
@@ -152,7 +168,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/understanding-nfts/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
