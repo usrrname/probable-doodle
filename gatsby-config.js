@@ -1,6 +1,7 @@
 require(`dotenv`).config();
 
 module.exports = {
+  pathPrefix: `/understanding-nfts`,
   siteMetadata: {
     siteTitle: `Understanding NFTs`,
     siteTitleAlt: `Understanding Non-fungible Tokens`,
@@ -12,7 +13,6 @@ module.exports = {
     author: `@jenninat0r`,
   },
   plugins: [
-    
     {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       options: {

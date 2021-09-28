@@ -3,7 +3,7 @@ import { jsx, Link } from "theme-ui"
 import useSiteMetadata from "@lekoarts/gatsby-theme-minimal-blog/src/hooks/use-site-metadata"
 
 export const Footer = () => {
-  const { siteTitle } = useSiteMetadata()
+  const { siteTitle, author } = useSiteMetadata()
 
   return (
     <footer
@@ -21,17 +21,20 @@ export const Footer = () => {
       }}
     >
       <div>
-        {new Date().getFullYear()} by {siteTitle}. All rights reserved.
+        {new Date().getFullYear()} by  <Link
+          aria-label="the author's twitter"
+          href="https://twitter.com/jenninat0r"
+        >{author}</Link>
       </div>
       <div>
-        A Project Commissioned
-        by
+        {siteTitle} is a project commissioned by&nbsp;
         <Link
           aria-label="Link to the KW Berlins' Open Secret Festival website"
           href="https://www.kw-berlin.de/en/open-secret/"
         >
           Open Secret Festival and KW Berlin
-        </Link>
+        </Link>&nbsp;
+        <img src="kw_grau.png" width="30" />
       </div>
     </footer>
   )
