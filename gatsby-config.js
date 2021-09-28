@@ -8,7 +8,7 @@ module.exports = {
     siteHeadline: `Understanding NFTs`,
     siteDescription: `A series of essays exploring NFTs in the selling of digital art and the underlying technology behind smart contracts.`,
     siteUrl: `https://usrrname.github.io/understanding-nfts`,
-    siteImage: `/banner.jpg`,
+    siteImage: `/banner.png`,
     siteLanguage: `en`,
     author: `@jenninat0r`,
   },
@@ -32,6 +32,10 @@ module.exports = {
             url: `https://twitter.com/jenninat0r`,
           },
           {
+            name: `github`,
+            url: `https://github.com/usrrname/understanding-nfts`,
+          },
+          {
             name: `homepage`,
             url: `https://www.jennifer-chan.com`,
           },
@@ -45,8 +49,6 @@ module.exports = {
         preconnect: [`https://fonts.gstatic.com`],
         interval: 300,
         timeout: 30000,
-        // If you plan on changing the font you'll also need to adjust the Theme UI config to edit the CSS
-        // See: https://github.com/LekoArts/gatsby-themes/tree/master/examples/minimal-blog#changing-your-fonts
         web: [
           {
             name: `IBM Plex Sans`,

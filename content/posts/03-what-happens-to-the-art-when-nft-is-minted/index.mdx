@@ -4,11 +4,12 @@ date: 2021-09-24
 slug: what-happens-to-the-art-nft-minting
 published: true
 tags:
-  - NFTs
+  - NFT
   - art
   - ethereum
   - on-chain
   - off-chain
+  - storage
 ---
 
 Without looking into it, I thought that entire files -anything from 4x4 pixel blocks, 16G videos, 9mb gifs- would be encrypted and stored in a standardized format on the blockchain, with parts of files seeded between Ethereum maintainers much like bittorrent files. In the same way Instagram allows people to upload masses of images, how Netfix never goes down and seems to host hours of video... _"What a large set of virtualized storage containers they'd need to keep this ever-updating, ever-increasing series of artwork, tokens and transactions in the blockchain",_ I thought. And what a large electrical bill it would cause open source users to maintain such infrastructure!
@@ -18,9 +19,11 @@ I was totally wrong about _how_ NFTs reference an artwork it claims to represent
 
 On existing NFT marketplace platforms, there what's known as "on-chain" and "off-chain" ways NFTs reference its relationship to a work of art.[^1].
 
-![Diagram distinguishing on-chain and off-chain NFT art and its differences](https://miro.medium.com/max/2400/0*Zwa0oN1NTBTj86cM)
-[jboogle](https://jboogle.medium.com/), ["The broken promises of NFT Art"](https://jboogle.medium.com/the-broken-promises-of-nft-art-e5ee8a4b7412), 2020.
-Our fellow artist peer jboogle has done some work to figure out what the different platforms support back in 2019.
+<img src="https://miro.medium.com/max/700/1*PUFvczVnTPb8vGwf__Fq-Q.jpeg" alt="Diagram distinguishing on-chain and off-chain NFT art and its differences" width="100%"/>
+
+jboogle, ["The broken promises of NFT Art"](https://jboogle.medium.com/the-broken-promises-of-nft-art-e5ee8a4b7412), 2020.
+
+## On-chain NFTs
 
 In the on-chain method, information **about** an artwork (metadata) is embedded in the smart contract. The actual artwork is stored on IPFS (InterPlanetary File System), which works like a peer-to-peer network. This prevents the artist from changing the artwork or swapping out the file, like you would be able to using Google Drive or Dropbox. Platforms like Rarible use conversion services like [Pinata](https://www.pinata.cloud/) or NFT.Storage to create an IPFS object.
 
@@ -29,17 +32,33 @@ This object contains the information that *points* to the link of an image, vide
  "...when someone buys an NFT, they’re not buying the actual digital artwork; they’re [buying a link to it](https://twitter.com/jonty/status/1372163423446917122)."
 Anil Dash, ["NFTs were not supposed to end like this"](https://www.theatlantic.com/ideas/archive/2021/04/nfts-werent-supposed-end-like/618488/), The Atlantic. April 2 2021.
 
-IPFS is fine to use if you decide to run your personal IPFS node to keep your artwork up. You'd foot the cost of the hardware (much like running your own server) and need a constant connection to the internet to maintain availability of your digital file. Otherwise, you must keep pinning the content or pay for the service that keeps pinning it––by this I mean, making the content available to other nodes to copy and distribute it in event your original personal node goes down [^2]. It's a bit like paying for web hosting and storage separately. Just because you make the artwork readily available doesn't mean its data is stored and persisted longterms. Services like [FileCoin](https://filecoin.io/) and [infinFT](https://infinft.com/) bring both decentralized protocols _and_ storage of digital artifacts for persistence and longevity. 
+IPFS is fine to use if you decide to run your personal IPFS node to keep your artwork up. You'd foot the cost of the hardware (much like running your own server) and need a constant connection to the internet to maintain availability of your digital file. Otherwise, you must keep pinning the content or pay for the service that keeps pinning it––by this I mean, making the content available to other nodes to copy and distribute it in event your original personal node goes down [^2]. It's a bit like paying for web hosting and storage separately. Just because you make the artwork readily available doesn't mean its data is stored and persisted longterm. Services like [FileCoin](https://filecoin.io/) and [infinFT](https://infinft.com/) bring both decentralized protocols _and_ storage of digital artifacts for persistence and longevity.
 
-So basically, you have three things to pay for in the process of rolling your own on-chain NFT: the creation of IPFS object with metadata about the artwork, the pinning service, and the storage. 
+So basically, you have three things to pay for in the process of rolling your own on-chain NFT:   1. the creation of IPFS object with metadata about the artwork, 
+2. the pinning service
+3. the storage. 
 
-In the off-chain method, the artwork is stored likely on a centralized server like AWS. (Good luck! JK) Does it matter? Why yes it does, says collector diehards. The artist can swap out the file! 
+## What about the Off-Chain Method?
+
+In the off-chain method, the artwork is stored likely on a centralized server like AWS. (Good luck! JK) 
+
+Does it matter? Why yes it does, says collector diehards. The artist can swap out the file! 
+
+Some of the advantages of "off-chain" measures include allowing the introduction of outside factors (such as new headlines, weather information, performance of the stock market) to the if/else mechanisms of smart contracts. Currently, the way smart contracts are talked about at an introductory implies that transactions only occur in the vacuum of a decentralized application's logic. This is advantageous for preventing external factors like stock market crashes and natural disasters (barring the coincidental destruction of storage, internet service, the dapp servers, the murder of the development leadership...) from compromising the security and operation of the blockchain. However, it also makes projects harder to connect with those outside factors.
+
+<img src="https://2eguue18ymh52albtja2v96c-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/NFT-Infographic-V2-1536x751.png" width="100%" alt="Example of a dynamic NFT and how it connects to an on-chain process. NFT is upgraded when a soccer player scores a hattrick"/>
+
+Chainlink's example of how to integrate oracles creating dynamic blockchain NFTs using Chainlink oracles.
+
+For example, if you wanted a NFT to become resaleable only if a certain stock performs well, you could would use an oracle to connect the blockchain with information every few days. This invariably introduces security issues but allows developers to create smart contracts that connect to real world events.
 
 Addressing the generative art perspective, an artistically sympathetic dev, Ricardo Stuven argued, "When it comes to on-chain artwork NFTs, the token doesn’t just refer to a piece. The token itself is the piece." It does not matter that the work is *pointed* at or is stored elsewhere, moreso that the generative and procedural potential of an artwork can be formally leveraged by the functions within a smart contract to create entirely mutative, unique digital works that are according to him, more worthy of collecting. In a bid to show how competitors on the NFT-creation market are selling brittle services, Showcase called out OpenSea, Matic and Editorial for using centralized storage instead of their own means of storage.[^3]
 
 It sounds like nerd in-fighting but Dash, Showcase and other technologists' claims are technically true in regards to off-chain mints. 
 
-In this post I've identified that for on-chain and off-chain mints. Afterall, it's not like the work itself is stored on the blockchain, and blockchain is not an optimal choice of tech for storage.
+In this post I identify the way on-chain and off-chain mints connect an NFT to the artwork. 
+
+### Summary: It's not like the work itself is stored on the blockchain, and blockchain is not an optimal choice of tech for storage.
 
 The current art market is hedging on NFTs to revolutionize the sales of art. And right now, it's working because a sizeable population have agreed to participate given the way this system works. It's extremely unregulated yet. I don't intend to discourage anyone from using these platforms; just sharing what I've discovered so that you can make an informed decision :)
 
@@ -52,7 +71,7 @@ IPFS. ["Persistence, Permanence, and Pinning"](https://docs.ipfs.io/concepts/per
 
 [^3] Kevin McCoy and Anil Dash. ["Seven on Seven 2014: Kevin McCoy & Anil Dash"](https://vimeo.com/96131398) Vimeo. 2014.
 
-In his now archived [Atlantic article]((https://www.theatlantic.com/ideas/archive/2021/04/nfts-werent-supposed-end-like/618488/), Dash took issue with the way NFTs today establish its relationship with digital artwork. He was an early proponent of such a transparent system for establishing provenance of digital art. In 2014, he and artist Kevin McCoy created a proof-of-concept that was similar to the on-chain method today, but cautioned that technology had not advanced enough yet to store works larger than 4mb on the blockchain. They called it a Monegraph.
+In his now archived [Atlantic article](https://www.theatlantic.com/ideas/archive/2021/04/nfts-werent-supposed-end-like/618488/), Dash took issue with the way NFTs today establish its relationship with digital artwork. He was an early proponent of such a transparent system for establishing provenance of digital art. In 2014, he and artist Kevin McCoy created a proof-of-concept that was similar to the on-chain method today, but cautioned that technology had not advanced enough yet to store works larger than 4mb on the blockchain. They called it a Monegraph.
 
 [^4] 
 StackExchange. ["On-chain vs. Off-chain NFT Art Platforms"](https://ethereum.stackexchange.com/questions/94928/on-chain-vs-off-chain-nft-art-platforms) Ethereum.
