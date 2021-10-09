@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tags-query-tsx",
     "path": "/tags",
-    "result": {"data":{"allPost":{"group":[{"fieldValue":"NFTs","totalCount":2},{"fieldValue":"art","totalCount":5},{"fieldValue":"bitcoin","totalCount":2},{"fieldValue":"copyright","totalCount":1},{"fieldValue":"ethereum","totalCount":5},{"fieldValue":"nfts","totalCount":3},{"fieldValue":"off-chain","totalCount":1},{"fieldValue":"on-chain","totalCount":1},{"fieldValue":"taxes","totalCount":1}]}},"pageContext":{}},
+    "result": {"data":{"allPost":{"group":[{"fieldValue":"NFT","totalCount":1},{"fieldValue":"NFTs","totalCount":2},{"fieldValue":"art","totalCount":5},{"fieldValue":"bitcoin","totalCount":2},{"fieldValue":"climate","totalCount":1},{"fieldValue":"copyright","totalCount":1},{"fieldValue":"ethereum","totalCount":6},{"fieldValue":"nfts","totalCount":3},{"fieldValue":"off-chain","totalCount":1},{"fieldValue":"on-chain","totalCount":1},{"fieldValue":"storage","totalCount":1},{"fieldValue":"taxes","totalCount":1}]}},"pageContext":{}},
     "staticQueryHashes": ["2744905544","3090400250","318001574"]}
