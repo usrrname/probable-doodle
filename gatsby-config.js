@@ -16,10 +16,11 @@ module.exports = {
     {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       options: {
+        blogPath: `/essays`,
         navigation: [
           {
-            title: `blog`,
-            slug: `/blog`,
+            title: `essays`,
+            slug: `/essays`,
           },
           {
             title: `about`,
@@ -28,15 +29,11 @@ module.exports = {
         ],
         externalLinks: [
           {
-            name: `twitter`,
+            name: `@jenninat0r`,
             url: `https://twitter.com/jenninat0r`,
           },
           {
-            name: `github`,
-            url: `https://github.com/usrrname/understanding-nfts`,
-          },
-          {
-            name: `homepage`,
+            name: `🎨`,
             url: `https://www.jennifer-chan.com`,
           },
         ],
@@ -55,6 +52,14 @@ module.exports = {
             file: `https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap`,
           },
         ],
+      },
+    },
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          'gatsby-remark-numbered-footnotes',
+       ],
       },
     },
     {
@@ -82,6 +87,5 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
-    `gatsby-plugin-netlify`,
   ]
 };

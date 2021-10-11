@@ -1,9 +1,7 @@
 /** @jsx jsx */
 import { jsx, Link } from "theme-ui"
-import useSiteMetadata from "@lekoarts/gatsby-theme-minimal-blog/src/hooks/use-site-metadata"
 
 export const Footer = () => {
-  const { siteTitle, author } = useSiteMetadata()
 
   return (
     <footer
@@ -21,13 +19,13 @@ export const Footer = () => {
       }}
     >
       <div>
-        {new Date().getFullYear()} by  <Link
-          aria-label="the author's twitter"
-          href="https://twitter.com/jenninat0r"
-        >{author}</Link>
+        <Link
+          aria-label="github repository"
+          href="https://github.com/usrrname/understanding-nfts"
+        ><img src="octocat.png" width="25" alt="github repository for Understanding NFTs" /></Link>
       </div>
       <div>
-        {siteTitle} is a project commissioned by&nbsp;
+        Commissioned by&nbsp;
         <Link
           aria-label="Link to the KW Berlins' Open Secret Festival website"
           href="https://www.kw-berlin.de/en/open-secret/"
