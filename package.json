@@ -12,6 +12,7 @@
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
+    "serve-prefix": "gatsby build --prefix-paths && gatsby serve --prefix-paths",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
@@ -24,6 +25,7 @@
     "gatsby-plugin-google-analytics": "^3.6.0",
     "gatsby-plugin-manifest": "^3.6.0",
     "gatsby-plugin-offline": "^4.6.0",
+    "gatsby-plugin-sharp": "^3.14.1",
     "gatsby-plugin-sitemap": "^4.2.0",
     "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.22",
     "gatsby-remark-images": "^5.11.0",
