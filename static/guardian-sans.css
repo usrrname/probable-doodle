@@ -1,0 +1,4 @@
+@font-face {
+  font-family: 'Guardian Sans';
+  src: local('Guardian Sans'), url(./fonts/guardian-sans-regular.otf) format('opentype');
+}

@@ -43,13 +43,33 @@ module.exports = {
       resolve: `gatsby-omni-font-loader`,
       options: {
         enableListener: true,
-        preconnect: [`https://fonts.gstatic.com`],
+        preconnect: [`http://fonts.cdnfonts.com/css/gilroy-bold?styles=20880`],
         interval: 300,
         timeout: 30000,
+        custom: [
+          {
+            name: ["Gilroy"],
+            file: "/fonts/gilroy.css",
+          },
+        ],
         web: [
           {
-            name: `IBM Plex Sans`,
-            file: `https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap`,
+            name: `Gilroy`,
+            file: `http://fonts.cdnfonts.com/css/gilroy-bold?styles=20880`,
+          },
+        ],
+      },
+    },
+    {
+      resolve: `gatsby-omni-font-loader`,
+      options: {
+        enableListener: true,
+        interval: 300,
+        timeout: 30000,
+        custom: [
+          {
+            name: ["Guardian Sans"],
+            file: "/fonts/guardian-sans.css",
           },
         ],
       },

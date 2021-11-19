@@ -22,7 +22,6 @@ type ListingProps = {
 const Listing = ({ posts, className = ``, showTags = true }: ListingProps) => {
 
   const sortedPosts = posts.slice(0).reverse().map(post => post);
-  console.log(sortedPosts)
   return (
     <section sx={{ mb: [5, 6, 7] }} className={className}>
       {
